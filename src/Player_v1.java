@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
-class Player {
+/**
+ * Seconde heuristique : va vers le plus proche adversaire.
+ * 
+ * Ne semble pas vraiment mieux fonctionner.
+ */
+class Player_v1 {
    static int[][]   tab      = new int[32][22];
    static {
       for (int i = 0; i < 32; i++) {
